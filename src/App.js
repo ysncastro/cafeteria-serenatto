@@ -5,12 +5,14 @@ import Navbar from "./Components/Navbar";
 import Banner from "./Components/Banner/Banner1/Banner";
 import Banner2 from "./Components/Banner/Banner2/Banner2";
 import Banner3 from "./Components/Banner/Banner3/Banner3";
+import Servicos from "./Components/Serviços/Servicos";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Banner />
+      <Servicos/>
       <Banner2/>
       <Banner3/>
     </div>
