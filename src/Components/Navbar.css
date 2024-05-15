@@ -1,0 +1,12 @@
+input[type="checkbox"] {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
